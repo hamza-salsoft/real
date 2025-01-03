@@ -1,0 +1,63 @@
+/* src/styles/tailwind.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.StyledModal .ant-modal-content {
+  height: 350px !important;
+  display: flex;
+  justify-content: center !important;
+  flex-direction: column;
+}
+.StyledModal .ant-modal-footer {
+  display: flex;
+  justify-content: center !important;
+  flex-direction: row;
+}
+
+.uploadBtn .ant-upload {
+  width: 100% !important;
+}
+
+.FormSelect .ant-select-selector {
+  border-radius: 5px !important;
+  background: white;
+  font-size: 14px;
+  width: 100%;
+  min-height: 45px !important;
+  padding: 3px 20px !important;
+}
+
+
+.ant-tooltip-inner {
+  display: none;
+} 
+
+:where(.css-dev-only-do-not-override-yp8pcc).ant-upload-wrapper .ant-upload-list.ant-upload-list-picture .ant-upload-list-item-error, :where(.css-dev-only-do-not-override-yp8pcc).ant-upload-wrapper .ant-upload-list.ant-upload-list-picture-card .ant-upload-list-item-error, :where(.css-dev-only-do-not-override-yp8pcc).ant-upload-wrapper .ant-upload-list.ant-upload-list-picture-circle .ant-upload-list-item-error {
+  border-color: rgba(213,175,104,1);
+}
+
+:where(.css-dev-only-do-not-override-yp8pcc).ant-upload-wrapper .ant-upload-list .ant-upload-list-item-error .ant-upload-list-item-name, :where(.css-dev-only-do-not-override-yp8pcc).ant-upload-wrapper .ant-upload-list .ant-upload-list-item-error .ant-upload-icon .anticon {
+  color: rgba(213,175,104,1);
+  cursor: pointer;
+}
+
+:where(.css-dev-only-do-not-override-yp8pcc).ant-upload-wrapper .ant-upload-list.ant-upload-list-picture .ant-upload-list-item-error .ant-upload-list-item-thumbnail .anticon svg path[fill='#1890ff'], :where(.css-dev-only-do-not-override-yp8pcc).ant-upload-wrapper .ant-upload-list.ant-upload-list-picture-card .ant-upload-list-item-error .ant-upload-list-item-thumbnail .anticon svg path[fill='#1890ff'], :where(.css-dev-only-do-not-override-yp8pcc).ant-upload-wrapper .ant-upload-list.ant-upload-list-picture-circle .ant-upload-list-item-error .ant-upload-list-item-thumbnail .anticon svg path[fill='#1890ff'] {
+  fill: rgba(213,175,104,1);
+
+}
+

@@ -2,7 +2,7 @@
   "name": "real-money-dragon-admin",
   "version": "0.1.0",
   "#homepage": "/real-money-dragon/admin",
-  "-homepage": "https://hamza-salsoft.github.io/real",
+  "homepage": "https://hamza-salsoft.github.io/real",
   "private": true,
   "dependencies": {
     "@emoji-mart/data": "^1.2.1",

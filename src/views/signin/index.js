@@ -102,7 +102,7 @@ function Signin() {
                   </Col>
                 </Row>
 
-                <h2 class="authFormHeading">Login To Your Account</h2>
+                <h2 class="authFormHeading">Login To Your Account.</h2>
                 <p>Enter Your Email Address To Login</p>
                 <br />
                 <Form
